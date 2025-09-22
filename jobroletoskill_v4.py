@@ -21,7 +21,7 @@ app = FastAPI(title="Job Role to Skill Recommendation API")
 
 
 class JobRoleSkillRecommender:
-    def __init__(self, embedding_model_name='all-mpnet-base-v2'):
+    def __init__(self, embedding_model_name='all-MiniLM-L6-v2'):
         self.data = None
         self.job_roles = None
         self.skills = None
